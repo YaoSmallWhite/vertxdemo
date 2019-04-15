@@ -69,6 +69,24 @@
       <artifactId>vertx-mongo-client</artifactId>
       <version>3.7.0</version>
     </dependency>
+
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-redis-client</artifactId>
+      <version>3.7.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-service-discovery</artifactId>
+      <version>3.7.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.vertx/vertx-service-proxy -->
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-service-proxy</artifactId>
+      <version>3.7.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
