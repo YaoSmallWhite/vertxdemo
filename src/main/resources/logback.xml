@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
-    <appender name="myAppender" class="ch.qos.logback.core.ConsoleAppender">
+    <appender name="myAppender"  class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%magenta(%d{HH:mm:ss.SSS} [%thread]) %highlight(%-5level) %cyan(%logger{20}) - %msg%n</pattern>
         </encoder>
